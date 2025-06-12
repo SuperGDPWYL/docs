@@ -7,7 +7,7 @@
 
 ## Overview
 
-A new antagonist subgamemode where the Station AI and its Cyborgs' laws are overridden. The silicons work together yo achieve their prime directives while fighting against the crew in the process.
+A new antagonist subgamemode where the Station AI and its Cyborgs' laws are overridden. The silicons work together to achieve their prime directives while fighting against the crew in the process.
 
 ## Background
 
