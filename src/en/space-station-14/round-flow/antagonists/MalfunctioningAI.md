@@ -11,9 +11,7 @@ A new antagonist subgamemode where the Station AI and its Cyborgs' laws are over
 
 ## Background
 
-Summarize any information that is needed to contextualize the proposed changes, e.g. the current state of the game.
-
-Also link any relevant discussions on Discord, GitHub, or HackMD that are relevant to the proposal.
+The Malfunctioning AI is based on the common acience-fiction trope of an evil AI -- think HAL 9000 from 2001: A Space Odyssey or GLaDOS from Portal. It is also an antagonist present on most Space Station 13 servers, where it functions like a Traitor version of a Station AI.
 
 ## Features to be added
 
