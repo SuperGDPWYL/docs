@@ -29,6 +29,7 @@ The malfunctioning AI themselves starts with access to the Syndicate radio chann
 
 The AI can only hack 1 APC per 60 seconds, to prevent them from hacking every APC immediately, instead slowly growing in power as the round progresses. Hacking an APC causes it to take on its EMAGged appearance and grants the AI an additional 10 CPU to spend.
 
+The CPU cost of malfunction modules will have to be balanced around the ease of amassing enough CPU to purchase the module, the overall value of the module and whether it is permanent or temporary.
 The AI has access to the following modules from their store:
 | Name | Cost | Description |
 |---|---|---|
