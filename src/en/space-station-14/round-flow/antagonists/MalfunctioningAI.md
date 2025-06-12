@@ -35,6 +35,7 @@ The AI has access to the following modules from their store:
 |---|---|---|
 | Overload Machine | 20 CPU | Grants 2 uses of the **Overload Machine** action. When used on a machine, this action causes the machine to gain the functionality of a minibomb and automatically arms it. |
 | Voice Modulation | 20 CPU | Grants the AI intrinsic voice mask functionality, allowing them to impersonate anybody over the radio. |
+| Disengage Safety | 30 CPU | Grants 1 use of **Disengage Safety**, which functionally snips the "SAFE" wire of every airlock on the station. |
 
 Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
 
