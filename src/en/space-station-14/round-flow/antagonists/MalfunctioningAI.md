@@ -7,7 +7,7 @@
 
 ## Overview
 
-A very short, maybe three sentence summary of what this proposal is about. A high level "overview" or "what this adds".
+A new antagonist subgamemode where the Station AI and its Cyborgs' laws are overridden. The silicons work together yo achieve their prime directives while fighting against the crew in the process.
 
 ## Background
 
