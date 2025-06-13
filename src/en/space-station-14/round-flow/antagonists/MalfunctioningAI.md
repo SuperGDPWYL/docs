@@ -33,7 +33,7 @@ A Malfunctioning AI is given 2 objectives to complete.
   - **Exterminate a department**. This objective is completed if no members of the chosen department survive. "Command" is a valid target.
   - **Assist the (Syndicate/revolution/outbreak)**. This objective cannot be chosen during Survival or Wizard and how it is completed depends on the gamemode:
     - Traitors: The objective is completed if at least 2/3rds of traitors' objectives are.
-    - Nuclear Operatives: The objective os completed if the station is nuked, either through the Doomsday Device or the nuclear operatives.
+    - Nuclear Operatives: The objective is completed if the station is nuked, either through the Doomsday Device or the nuclear operatives.
     - Revolutionaries: The objective is completed if all of Command are removed from their position by conversion, death of imprisonment.
     - Zombies: The objective is completed if at least 2/3rds of the crew become zombies.
 
