@@ -51,7 +51,7 @@ The AI has access to the following modules from their store:
 | Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. This action has a 12 minute cooldown. |
 | Siliconization Software | 15 CPU | Grants 3 uses of **Install Siliconization Module** which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
 | Call Threat | 50 CPU | Grants 1 use of **Call Threat** that, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
-| Escape Pod Malfunction | 45 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function. All crew will be notified once the emergency shuttle docks with the station, or if that has already happened, immediately. *This can only be purchased once.* |
+| Escape Pod Malfunction | 30 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function. All crew will be notified once the emergency shuttle docks with the station; thr action cannot be used after that point. *This can only be purchased once.* |
 | Identification Manipulation | 15 CPU | Grants the AI the ability to modify what their ID reads as, allowing them to plant fake door logs or make announcements under a crew member's name. |
 | Clerical Error | 10 CPU | Grants 1 use of **Clerical Error**, permanently destroying some of the station records and blaming it on Central Command. This action has a 15 minute cooldown. |
 
