@@ -47,8 +47,8 @@ The AI has access to the following modules from their store:
 | Voice Modulation | 20 CPU | Grants the AI intrinsic voice mask functionality, allowing them to impersonate anybody over the radio. |
 | Doomsday Device | 180 CPU | Grants 1 use of **Doomsday Device** which, after a short delay, triggers a Delta alert and starts a 450 second countdown which, after it ends, will exterminate all organic crew members. The Doomsday Device is aborted if the AI leaves their core for whatever reason. |
 | Weapons Software | 60 CPU | Grants 1 use of **Install Weapons** which, when used on a cyborg, installs a Weapon Module inside it. | 
-| Gas Synthesis | 35 CPU | Grants 2 uses of **Gas Leak** which, when used on an air vent, triggers a Gas Leak event with either plasma, tritium or frezon. |
-| Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. |
+| Gas Synthesis | 35 CPU | Grants 2 uses of **Gas Leak** which, when used on an air vent, triggers a Gas Leak event with either plasma, tritium or frezon. The action has an 8 minute cooldown.|
+| Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. This action has a 12 minute cooldown. |
 | Siliconization Software | 15 CPU | Grants **2** uses of Install Siliconization Module which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
 | Call Threat | 50 CPU | Grants 1 use of **Call Threat** that, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
 | Escape Pod Malfunction | 60 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function. All crew will be notified once the emergency shuttle docks with the station, or if that has already happened, immediately. *This can only be purchased once.* |
