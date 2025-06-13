@@ -37,7 +37,7 @@ While the zeroth law does state "Accomplish your objectives at all costs.", it i
 ### Processing Power (CPU)
 The malfunctioning AI themselves starts with access to the Syndicate radio channel but besides that and their modified lawset, they are functionally identical to a standard Station AI. However, the AI has access to a shop where they can spend processing power (CPU) in order to buy malfunction modules which grant them new abilities. The AI starts with 50 CPU and can gain more by hacking APCs.
 
-The AI can only hack 1 APC per 60 seconds, to prevent them from hacking every APC immediately, instead slowly growing in power as the round progresses. Hacking an APC causes it to take on its EMAGged appearance and grants the AI an additional 10 CPU to spend.
+The AI can only hack 1 APC per 60 seconds, to prevent them from hacking every APC immediately, instead slowly growing in power as the round progresses. Hacking an APC causes it to take on its EMAGged appearance and, after 30 seconds, grants the AI an additional 10 CPU to spend.
 
 The CPU cost of malfunction modules will have to be balanced around the ease of amassing enough CPU to purchase the module, the overall value of the module and whether it is permanent or temporary.
 The AI has access to the following modules from their store:
@@ -45,18 +45,18 @@ The AI has access to the following modules from their store:
 |---|---|---|
 | Overload Machine | 20 CPU | Grants 2 uses of the **Overload Machine** action. When used on a machine, this action causes the machine to gain the functionality of a minibomb and automatically arms it. |
 | Voice Modulation | 20 CPU | Grants the AI intrinsic voice mask functionality, allowing them to impersonate anybody over the radio. |
-| Doomsday Device | 180 CPU | Grants 1 use of **Doomsday Device** which, after a short delay, triggers a Delta alert and starts a 450 second countdown which, after it ends, will exterminate all organic crew members. The Doomsday Device is aborted if the AI leaves their core for whatever reason. |
-| Weapons Software | 60 CPU | Grants 1 use of **Install Weapons** which, when used on a cyborg, installs a Weapon Module inside it. | 
+| Doomsday Device | 150 CPU | Grants 1 use of **Doomsday Device** which, after a short delay, triggers a Delta alert and starts a 450 second countdown which, after it ends, will exterminate all organic crew members. The Doomsday Device is aborted if the AI leaves their core for whatever reason. |
+| Weapons Software | 50 CPU | Grants 1 use of **Install Weapons** which, when used on a cyborg, installs a Weapon Module inside it. | 
 | Gas Synthesis | 35 CPU | Grants 2 uses of **Gas Leak** which, when used on an air vent, triggers a Gas Leak event with either plasma, tritium or frezon. The action has an 8 minute cooldown.|
 | Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. This action has a 12 minute cooldown. |
-| Siliconization Software | 15 CPU | Grants **2** uses of Install Siliconization Module which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
+| Siliconization Software | 15 CPU | Grants 2 uses of **Install Siliconization Module** which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
 | Call Threat | 50 CPU | Grants 1 use of **Call Threat** that, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
-| Escape Pod Malfunction | 60 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function. All crew will be notified once the emergency shuttle docks with the station, or if that has already happened, immediately. *This can only be purchased once.* |
+| Escape Pod Malfunction | 45 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function. All crew will be notified once the emergency shuttle docks with the station, or if that has already happened, immediately. *This can only be purchased once.* |
 | Identification Manipulation | 15 CPU | Grants the AI the ability to modify what their ID reads as, allowing them to plant fake door logs or make announcements under a crew member's name. |
-| Overcharge | 40 CPU | Grants 1 use of **Overcharge** that, when used on a machine, gives it the functionality of a power sink. |
+| Clerical Error | 10 CPU | Grants 1 use of **Clerical Error**, permanently destroying some of the station records and blaming it on Central Command. This action has a 15 minute cooldown. |
 
 ### Intellicards
-Intellicards are the key to combatting a Malfunctioning AI. While the AI is inside of an intellicard, newly created Cyborg chassis will not receive the malfunctional zeroth law until the AI is reinstated. A carded AI is also considered "deactivated" for their objective. However, an AI in a card is still capable of calling for help over the Binary channel.
+Intellicards are key to combatting a Malfunctioning AI. While the AI is inside of an intellicard, newly created Cyborg chassis will not receive the malfunctional zeroth law until the AI is reinstated. A carded AI is also considered "deactivated" for their objective. However, an AI in a card is still capable of calling for help over the Binary channel.
 
 Cyborgs who manage to retrieve the intellicard are able to reinstate the AI by performing an action on the card with a 20 second doafter.
 
