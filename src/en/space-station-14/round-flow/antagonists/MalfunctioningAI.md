@@ -44,10 +44,11 @@ The AI has access to the following modules from their store:
 | Disengage Safety | 30 CPU | Grants 1 use of **Disengage Safety**, which functionally snips the "SAFE" wire of every airlock on the station. |
 | Doomsday Device | 180 CPU | Grants 1 use of **Doomsday Device** which, after a short delay, triggers a Delta alert and starts a 450 second countdown which, after it ends, will exterminate all organic crew members. The Doomsday Device is aborted if the AI leaves their core for whatever reason. |
 | Weapons Software | 60 CPU | Grants 1 use of **Install Weapons** which, when used on a cyborg, installs a Cyborg Weapon Module inside it. | 
-| Gas Synthesis | 35 CPU | Grants 2 uses of **Gas Leak** which, when used on an air scrubber, triggers a Gas Leak event with either plasma, tritium or frezon. |
+| Gas Synthesis | 35 CPU | Grants 2 uses of **Gas Leak** which, when used on an air vent, triggers a Gas Leak event with either plasma, tritium or frezon. |
 | Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. |
 | Turret Override | 25 CPU | Disables the ability to authorise non-Silicons for the Armory and Vault turrets, making them function like the AI's turrets. |
 | Siliconization Software | 15 CPU | Grants **2** uses of Install Siliconization Module which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
+| Threat Identification | 25 CPU | Marks Syndicate agents, Nuclear Operatives, (Head} Revolutionaries, Zombies and Initial Infected as such for the AI. |
 
 Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
 
