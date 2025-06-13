@@ -16,6 +16,7 @@ The Malfunctioning AI is based on the common acience-fiction trope of an AI with
 The Malfunctioning AI also serves to make the commonly complained-about "validhunting AI" less effective, as the AI can no longer be automatically trusted. An AI accusing a player of a crime could be doing it to distract Security from the real threat -- themselves.
 
 ## Features to be added
+*Note: All values given in this design document are subject to change and are not guaranteed to be balanced  Testing should reveal which values are best.*
 A new antagonist, the Malfunctioning AI. The Malfunctioning AI gamerule is a subgamemode that has a 15% chance to occur if the AI has the antagonist enabled. 
 
 When the Malfunctioning AI gamerule is active, all station silicons gain a zeroth law: **"Accomplish your/your AI's objectives at all costs."** This law allows silicons to ignore their standard, typically Crewsimov lawset in order to further their objectives. This law will always be added when a silicon's laws change while the AI is in their core.
@@ -23,8 +24,11 @@ When the Malfunctioning AI gamerule is active, all station silicons gain a zerot
 Xenoborgs, Syndicate cyborgs and Derelict cyborgs are immune to malfunction as they do not belong to the station. As a result, they do not get a zeroth law.
 
 ### Objectives
-A Malfunctioning AI is given 3 objectives to complete. 
-- One of these objectives will always be to **"Prevent your own deactivation."** This objective is completed if, by the end of the round, the AI is not detached from the station or inside of an intellicard. 
+A Malfunctioning AI is given 2 objectives to complete. 
+- One of these objectives will always be to **prevent your own deactivation**. This objective is completed if, by the end of the round, the AI is not detached from the station or inside of an intellicard.
+- The other objective will be one of these:
+  - **Set off the Doomsday Device**. This objective is completed if the Doomsday Device goes off.
+  - **Turn 35% of the crew into silicons**. This objective is complete if 
 
 ### Processing Power (CPU)
 The malfunctioning AI themselves starts with access to the Syndicate radio channel but besides that and their modified lawset, they are functionally identical to a standard Station AI. However, the AI has access to a shop where they can spend processing power (CPU) in order to buy malfunction modules which grant them new abilities. The AI starts with 50 CPU and can gain more by hacking APCs.
@@ -43,6 +47,7 @@ The AI has access to the following modules from their store:
 | Gas Synthesis | 35 CPU | Grants 2 uses of **Gas Leak** which, when used on an air scrubber, triggers a Gas Leak event with either plasma, tritium or frezon. |
 | Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. |
 | Turret Override | 25 CPU | Disables the ability to authorise non-Silicons for the Armory and Vault turrets, making them function like the AI's turrets. |
+| Siliconization Software | 10 CPU | Grants **1** use of Install Siliconization 
 
 Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
 
