@@ -28,9 +28,9 @@ A Malfunctioning AI is given 2 objectives to complete.
 - One of these objectives will always be to **prevent your own deactivation**. This objective is completed if, by the end of the round, the AI is not detached from the station or inside of an intellicard.
 - The other objective will be one of these:
   - **Set off the Doomsday Device**. This objective is completed if the Doomsday Device goes off.
-  - **Turn 35% of the crew into silicons**. This objective is complete if, by the end of the round, 35% of the crew's brains are in cyborgs.
-  - **Make sure no crew escape**. This objective is complete if no crew members make it to CentComm alive.
-  - **Exterminate a department**. This objective is conplete if no members of the chosen department survive. "Command" is a valid target.
+  - **Turn 35% of the crew into silicons**. This objective is completed if, by the end of the round, 35% of the crew's brains are in cyborgs.
+  - **Make sure no crew escape**. This objective is completed if no crew members make it to CentComm alive.
+  - **Exterminate a department**. This objective is completed if no members of the chosen department survive. "Command" is a valid target.
   - **Assist the (Syndicate/revolution/outbreak)**. This objective cannot be chosen during Survival or Wizard and how it is completed depends on the gamemode:
     - Traitors: The objective is completed if at least 2/3rds of traitors' objectives are.
     - Nuclear Operatives: The objective os completed if the station is nuked, either through the Doomsday Device or the nuclear operatives.
