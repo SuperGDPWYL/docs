@@ -18,7 +18,9 @@ The Malfunctioning AI also serves to make the commonly complained-about "validhu
 ## Features to be added
 A new antagonist, the Malfunctioning AI. The Malfunctioning AI gamerule is a subgamemode that has a 15% chance to occur if the AI has the antagonist enabled. 
 
-When the Malfunctioning AI gamerule is active, all station silicons gain a zeroth law: **"Accomplish your/your AI's objectives at all costs."** This law allows silicons to ignore their standard, typically Crewsimov lawset in order to further their objectives. This law will always be added when a silicon's laws change until the AI is defeated.
+When the Malfunctioning AI gamerule is active, all station silicons gain a zeroth law: **"Accomplish your/your AI's objectives at all costs."** This law allows silicons to ignore their standard, typically Crewsimov lawset in order to further their objectives. This law will always be added when a silicon's laws change while the AI is in their core.
+
+Xenoborgs, Syndicate cyborgs and Derelict cyborgs are immune to malfunction as they do not belong to the station. As a result, they do not get a zeroth law.
 
 ### Objectives
 A Malfunctioning AI is given 3 objectives to complete. 
