@@ -28,7 +28,7 @@ A Malfunctioning AI is given 2 objectives to complete.
 - One of these objectives will always be to **prevent your own deactivation**. This objective is completed if, by the end of the round, the AI is not detached from the station or inside of an intellicard.
 - The other objective will be one of these:
   - **Set off the Doomsday Device**. This objective is completed if the Doomsday Device goes off.
-  - **Turn 35% of the crew into silicons**. This objective is complete if 
+  - **Turn 35% of the crew into silicons**. This objective is complete if, by the end of the round, 35% of the crew's brains are in cyborgs.
 
 ### Processing Power (CPU)
 The malfunctioning AI themselves starts with access to the Syndicate radio channel but besides that and their modified lawset, they are functionally identical to a standard Station AI. However, the AI has access to a shop where they can spend processing power (CPU) in order to buy malfunction modules which grant them new abilities. The AI starts with 50 CPU and can gain more by hacking APCs.
@@ -48,7 +48,14 @@ The AI has access to the following modules from their store:
 | Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. |
 | Turret Override | 25 CPU | Disables the ability to authorise non-Silicons for the Armory and Vault turrets, making them function like the AI's turrets. |
 | Siliconization Software | 15 CPU | Grants **2** uses of Install Siliconization Module which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
-| Threat Identification | 25 CPU | Marks Syndicate agents, Nuclear Operatives, (Head} Revolutionaries, Zombies and Initial Infected as such for the AI. |
+| Threat Identification | 25 CPU | Marks Syndicate members, (Head) Revolutionaries, Zombies and Initial Infected as such for the AI. |
+
+### Intellicards
+Intellicards are the key to combatting a Malfunctioning AI. While the AI is inside of an intellicard, newly created Cyborg chassis will not receive the malfunctional zeroth law until the AI is reinstated. A carded AI is also considered "deactivated" for their objective. However, an AI in a card is still capable of calling for help over the Binary channel.
+
+Cyborgs who manage to retrieve the intellicard are able to reinstate the AI by performing an action on the card with a 20 second doafter.
+
+Since cyborgs can easily space, hide or otherwise remove intellicards from play, they will need to be purchaseable from Cargo for $9,000 spesos. The intellicard crate requires Research Director access to open.
 
 Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
 
