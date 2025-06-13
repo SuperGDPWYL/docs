@@ -19,7 +19,7 @@ The Malfunctioning AI also serves to make the commonly complained-about "validhu
 *Note: All values given in this design document are subject to change and are not guaranteed to be balanced  Testing should reveal which values are best.*
 A new antagonist, the Malfunctioning AI. The Malfunctioning AI gamerule is a subgamemode that has a 15% chance to occur if the AI has the antagonist enabled. 
 
-When the Malfunctioning AI gamerule is active, all station silicons gain a zeroth law: **"Accomplish your/your AI's objectives at all costs."** This law allows silicons to ignore their standard, typically Crewsimov lawset in order to further their objectives. This law will always be added when a silicon's laws change while the AI is in their core.
+When the Malfunctioning AI gamerule is active and the AI is inside of their core, all station silicons gain a zeroth law: **"Accomplish your/your AI's objectives at all costs."** This law allows silicons to ignore their standard, typically Crewsimov lawset in order to further their objectives. This law will always be added when a silicon's laws change while the AI is in their core.
 
 Xenoborgs, Syndicate cyborgs and Derelict cyborgs are immune to malfunction as they do not belong to the station. As a result, they do not get a zeroth law.
 
@@ -50,13 +50,12 @@ The AI has access to the following modules from their store:
 | Voice Modulation | 20 CPU | Grants the AI intrinsic voice mask functionality, allowing them to impersonate anybody over the radio. |
 | Disengage Safety | 30 CPU | Grants 1 use of **Disengage Safety**, which functionally snips the "SAFE" wire of every airlock on the station. |
 | Doomsday Device | 180 CPU | Grants 1 use of **Doomsday Device** which, after a short delay, triggers a Delta alert and starts a 450 second countdown which, after it ends, will exterminate all organic crew members. The Doomsday Device is aborted if the AI leaves their core for whatever reason. |
-| Weapons Software | 60 CPU | Grants 1 use of **Install Weapons** which, when used on a cyborg, installs a Cyborg Weapon Module inside it. | 
+| Weapons Software | 60 CPU | Grants 1 use of **Install Weapons** which, when used on a cyborg, installs a Weapon Module inside it. | 
 | Gas Synthesis | 35 CPU | Grants 2 uses of **Gas Leak** which, when used on an air vent, triggers a Gas Leak event with either plasma, tritium or frezon. |
 | Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. |
-| Turret Override | 25 CPU | Disables the ability to authorise non-Silicons for the Armory and Vault turrets, making them function like the AI's turrets. |
 | Siliconization Software | 15 CPU | Grants **2** uses of Install Siliconization Module which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
-| Call Threat | 50 CPU | Grants 1 use od **Call Threat** thst, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
-| Escape Pod Malfunction | 60 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function and all crew will be notified once the emergency shuttle docks with the station. *This can only be purchased once.* |
+| Call Threat | 50 CPU | Grants 1 use of **Call Threat** that, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
+| Escape Pod Malfunction | 60 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function. All crew will be notified once the emergency shuttle docks with the station, or if that has already happened, immediately. *This can only be purchased once.* |
 
 ### Intellicards
 Intellicards are the key to combatting a Malfunctioning AI. While the AI is inside of an intellicard, newly created Cyborg chassis will not receive the malfunctional zeroth law until the AI is reinstated. A carded AI is also considered "deactivated" for their objective. However, an AI in a card is still capable of calling for help over the Binary channel.
@@ -65,7 +64,6 @@ Cyborgs who manage to retrieve the intellicard are able to reinstate the AI by p
 
 Since cyborgs can easily space, hide or otherwise remove intellicards from play, they will need to be purchaseable from Cargo for $9,000 spesos. The intellicard crate requires Research Director access to open.
 
-Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
 
 ## Game Design Rationale
 
