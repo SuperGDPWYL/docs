@@ -36,6 +36,9 @@ The AI has access to the following modules from their store:
 | Overload Machine | 20 CPU | Grants 2 uses of the **Overload Machine** action. When used on a machine, this action causes the machine to gain the functionality of a minibomb and automatically arms it. |
 | Voice Modulation | 20 CPU | Grants the AI intrinsic voice mask functionality, allowing them to impersonate anybody over the radio. |
 | Disengage Safety | 30 CPU | Grants 1 use of **Disengage Safety**, which functionally snips the "SAFE" wire of every airlock on the station. |
+| Doomsday Device | 180 CPU | Grants 1 use of **Doomsday Device** which, after a short delay, triggers a Delta alert and starts a 450 second countdown which, after it ends, will exterminate all organic crew members. The Doomsday Device is aborted if the AI leaves their core for whatever reason. |
+| Weapons Software | 60 CPU | Grants 1 use of **Install Weapons** which, when used on a cyborg, installs a Cyborg Weapon Module inside it. | 
+| Gas Synthesis | 30 CPU | Grants 2 uses of **Gas Leak** which, when used on an air scrubber, triggers a Gas Leak event qith either water vapour, plasma, tritium or frezon. |
 
 Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
 
