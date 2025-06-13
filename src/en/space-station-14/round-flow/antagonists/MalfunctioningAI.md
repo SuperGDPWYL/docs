@@ -14,7 +14,7 @@ A new antagonist subgamemode where the Station AI and its Cyborgs' laws are over
 The Malfunctioning AI is based on the common science-fiction trope of an AI with total control turning evil -- think HAL 9000 from 2001: A Space Odyssey or GLaDOS from Portal. It is also an antagonist present on most Space Station 13 servers, where it functions like a Traitor version of a Station AI. 
 
 ## Features to be added
-*Note: All values given in this design document are subject to change and are not guaranteed to be balanced  Testing should reveal which values are best.*
+*Note: All values given in this design document are subject to change and are not guaranteed to be balanced. Testing should reveal which values are best.*
 
 
 A new antagonist, the Malfunctioning AI. The Malfunctioning AI gamerule is a subgamemode that has a 15% chance to occur if the AI has the antagonist enabled. 
