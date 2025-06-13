@@ -29,6 +29,13 @@ A Malfunctioning AI is given 2 objectives to complete.
 - The other objective will be one of these:
   - **Set off the Doomsday Device**. This objective is completed if the Doomsday Device goes off.
   - **Turn 35% of the crew into silicons**. This objective is complete if, by the end of the round, 35% of the crew's brains are in cyborgs.
+  - **Make sure no crew escape**. This objective is complete if no crew members make it to CentComm alive.
+  - **Exterminate a department**. This objective is conplete if no members of the chosen department survive. "Command" is a valid target.
+  - **Assist the (Syndicate/revolution/outbreak)**. This objective cannot be chosen during Survival or Wizard and how it is completed depends on the gamemode:
+    - Traitors: The objective is completed if at least 2/3rds of traitors' objectives are.
+    - Nuclear Operatives: The objective os completed if the station is nuked, either through the Doomsday Device or the nuclear operatives.
+    - Revolutionaries: The objective is completed if all of Command are removed from their position by conversion, death of imprisonment.
+    - Zombies: The objective is completed if at least 2/3rds of the crew become zombies.
 
 ### Processing Power (CPU)
 The malfunctioning AI themselves starts with access to the Syndicate radio channel but besides that and their modified lawset, they are functionally identical to a standard Station AI. However, the AI has access to a shop where they can spend processing power (CPU) in order to buy malfunction modules which grant them new abilities. The AI starts with 50 CPU and can gain more by hacking APCs.
@@ -48,7 +55,7 @@ The AI has access to the following modules from their store:
 | Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. |
 | Turret Override | 25 CPU | Disables the ability to authorise non-Silicons for the Armory and Vault turrets, making them function like the AI's turrets. |
 | Siliconization Software | 15 CPU | Grants **2** uses of Install Siliconization Module which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
-| Threat Identification | 25 CPU | Marks Syndicate members, (Head) Revolutionaries, Zombies and Initial Infected as such for the AI. |
+| Call Threat | 50 CPU | Grants 1 use od **Call Threat** thst, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
 
 ### Intellicards
 Intellicards are the key to combatting a Malfunctioning AI. While the AI is inside of an intellicard, newly created Cyborg chassis will not receive the malfunctional zeroth law until the AI is reinstated. A carded AI is also considered "deactivated" for their objective. However, an AI in a card is still capable of calling for help over the Binary channel.
