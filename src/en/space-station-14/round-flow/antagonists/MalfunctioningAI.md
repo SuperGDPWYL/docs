@@ -31,11 +31,8 @@ A Malfunctioning AI is given 2 objectives to complete.
   - **Turn 35% of the crew into silicons**. This objective is completed if, by the end of the round, 35% of the crew's brains are in cyborgs.
   - **Make sure no crew escape**. This objective is completed if no crew members make it to CentComm alive.
   - **Exterminate a department**. This objective is completed if no members of the chosen department survive. "Command" is a valid target.
-  - **Assist the (Syndicate/revolution/outbreak)**. This objective cannot be chosen during Survival or Wizard and how it is completed depends on the gamemode:
-    - Traitors: The objective is completed if at least 2/3rds of traitors' objectives are.
-    - Nuclear Operatives: The objective is completed if the station is nuked, either through the Doomsday Device or the nuclear operatives.
-    - Revolutionaries: The objective is completed if all of Command are removed from their position by conversion, death of imprisonment.
-    - Zombies: The objective is completed if at least 2/3rds of the crew become zombies.
+ 
+While the zeroth law does state "Accomplish your objectives at all costs.", it is important to note that Malfunctioning AIs should be given the freedom to do interesting antagonistic gimmicks instead of their objectives if they wish, similar to a Traitor. Cyborgs with a zeroth law should work with the AI to accomplish what they want.
 
 ### Processing Power (CPU)
 The malfunctioning AI themselves starts with access to the Syndicate radio channel but besides that and their modified lawset, they are functionally identical to a standard Station AI. However, the AI has access to a shop where they can spend processing power (CPU) in order to buy malfunction modules which grant them new abilities. The AI starts with 50 CPU and can gain more by hacking APCs.
@@ -48,7 +45,6 @@ The AI has access to the following modules from their store:
 |---|---|---|
 | Overload Machine | 20 CPU | Grants 2 uses of the **Overload Machine** action. When used on a machine, this action causes the machine to gain the functionality of a minibomb and automatically arms it. |
 | Voice Modulation | 20 CPU | Grants the AI intrinsic voice mask functionality, allowing them to impersonate anybody over the radio. |
-| Disengage Safety | 30 CPU | Grants 1 use of **Disengage Safety**, which functionally snips the "SAFE" wire of every airlock on the station. |
 | Doomsday Device | 180 CPU | Grants 1 use of **Doomsday Device** which, after a short delay, triggers a Delta alert and starts a 450 second countdown which, after it ends, will exterminate all organic crew members. The Doomsday Device is aborted if the AI leaves their core for whatever reason. |
 | Weapons Software | 60 CPU | Grants 1 use of **Install Weapons** which, when used on a cyborg, installs a Weapon Module inside it. | 
 | Gas Synthesis | 35 CPU | Grants 2 uses of **Gas Leak** which, when used on an air vent, triggers a Gas Leak event with either plasma, tritium or frezon. |
@@ -56,6 +52,7 @@ The AI has access to the following modules from their store:
 | Siliconization Software | 15 CPU | Grants **2** uses of Install Siliconization Module which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
 | Call Threat | 50 CPU | Grants 1 use of **Call Threat** that, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
 | Escape Pod Malfunction | 60 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function. All crew will be notified once the emergency shuttle docks with the station, or if that has already happened, immediately. *This can only be purchased once.* |
+| Identification Manipulation | 15 CPU | Grants the AI the ability to modify what their ID reads as, allowing them to plant fake door logs or make announcements under a crew member's name. |
 
 ### Intellicards
 Intellicards are the key to combatting a Malfunctioning AI. While the AI is inside of an intellicard, newly created Cyborg chassis will not receive the malfunctional zeroth law until the AI is reinstated. A carded AI is also considered "deactivated" for their objective. However, an AI in a card is still capable of calling for help over the Binary channel.
