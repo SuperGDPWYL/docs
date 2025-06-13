@@ -53,6 +53,7 @@ The AI has access to the following modules from their store:
 | Call Threat | 50 CPU | Grants 1 use of **Call Threat** that, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
 | Escape Pod Malfunction | 60 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function. All crew will be notified once the emergency shuttle docks with the station, or if that has already happened, immediately. *This can only be purchased once.* |
 | Identification Manipulation | 15 CPU | Grants the AI the ability to modify what their ID reads as, allowing them to plant fake door logs or make announcements under a crew member's name. |
+| Overcharge | 40 CPU | Grants 1 use of **Overcharge** that, when used on a machine, gives it the functionality of a power sink. |
 
 ### Intellicards
 Intellicards are the key to combatting a Malfunctioning AI. While the AI is inside of an intellicard, newly created Cyborg chassis will not receive the malfunctional zeroth law until the AI is reinstated. A carded AI is also considered "deactivated" for their objective. However, an AI in a card is still capable of calling for help over the Binary channel.
