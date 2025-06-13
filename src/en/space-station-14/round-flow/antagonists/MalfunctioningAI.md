@@ -13,10 +13,10 @@ A new antagonist subgamemode where the Station AI and its Cyborgs' laws are over
 
 The Malfunctioning AI is based on the common acience-fiction trope of an AI with total control turning evil -- think HAL 9000 from 2001: A Space Odyssey or GLaDOS from Portal. It is also an antagonist present on most Space Station 13 servers, where it functions like a Traitor version of a Station AI. 
 
-The Malfunctioning AI also serves to make the commonly complained-about "validhunting AI" less effective, as the AI can no longer be automatically trusted. An AI accusing a player of a crime could be doing it to distract Security from the real threat -- themselves.
-
 ## Features to be added
 *Note: All values given in this design document are subject to change and are not guaranteed to be balanced  Testing should reveal which values are best.*
+
+
 A new antagonist, the Malfunctioning AI. The Malfunctioning AI gamerule is a subgamemode that has a 15% chance to occur if the AI has the antagonist enabled. 
 
 When the Malfunctioning AI gamerule is active and the AI is inside of their core, all station silicons gain a zeroth law: **"Accomplish your/your AI's objectives at all costs."** This law allows silicons to ignore their standard, typically Crewsimov lawset in order to further their objectives. This law will always be added when a silicon's laws change while the AI is in their core.
@@ -66,6 +66,8 @@ Since cyborgs can easily space, hide or otherwise remove intellicards from play,
 
 
 ## Game Design Rationale
+
+The Malfunctioning AI also serves to make the commonly complained-about "validhunting AI" less effective, as the AI can no longer be automatically trusted. An AI accusing a player of a crime could be doing it to distract Security from the real threat -- themselves.
 
 Consider addressing:
 - How does the feature align with our [Core Design Principles](../space-station-14/core-design/design-principles.md) and game philosphy?
