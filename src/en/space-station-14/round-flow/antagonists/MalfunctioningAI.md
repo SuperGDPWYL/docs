@@ -32,7 +32,7 @@ A Malfunctioning AI is given 2 objectives to complete.
   - **Make sure no crew escape**. This objective is completed if no crew members make it to CentComm alive.
   - **Exterminate a department**. This objective is completed if no members of the chosen department survive. "Command" is a valid target.
  
-While the zeroth law does state "Accomplish your objectives at all costs.", it is important to note that Malfunctioning AIs should be given the freedom to do interesting antagonistic gimmicks instead of their objectives if they wish, similar to a Traitor. Cyborgs with a zeroth law should work with the AI to accomplish what they want.
+While the zeroth law does state "Accomplish your objectives at all costs.", it is important to note that Malfunctioning AIs should be given the freedom to do interesting antagonistic gimmicks instead of their objectives if they wish, similar to a Traitor. Cyborgs with a zeroth law should work with the AI to accomplish whatever the AI's goal may be.
 
 ### Processing Power (CPU)
 The malfunctioning AI themselves starts with access to the Syndicate radio channel but besides that and their modified lawset, they are functionally identical to a standard Station AI. However, the AI has access to a shop where they can spend processing power (CPU) in order to buy malfunction modules which grant them new abilities. The AI starts with 50 CPU and can gain more by hacking APCs.
