@@ -29,8 +29,9 @@ A Malfunctioning AI is given 2 objectives to complete.
 - The other objective will be one of these:
   - **Set off the Doomsday Device**. This objective is completed if the Doomsday Device goes off.
   - **Turn 35% of the crew into silicons**. This objective is completed if, by the end of the round, 35% of the crew's brains are in cyborgs.
-  - **Make sure no crew escape**. This objective is completed if no crew members make it to CentComm alive.
+  - **Make sure no crew escape on the emergency shuttle**. This objective is completed if no crew members are present on the emergency shuttle when it arrives at CentComm.
   - **Exterminate a department**. This objective is completed if no members of the chosen department survive. "Command" is a valid target.
+More objectives may be added in the future.
  
 While the zeroth law does state "Accomplish your objectives at all costs.", it is important to note that Malfunctioning AIs should be given the freedom to do interesting antagonistic gimmicks instead of their objectives if they wish, similar to a Traitor. Cyborgs with a zeroth law should work with the AI to accomplish whatever the AI's goal may be.
 
@@ -51,7 +52,6 @@ The AI has access to the following modules from their store:
 | Abnormal Powernet Activity | 20 CPU | Grants 2 uses of **Abnormal Activity** which triggers the blackout event, temporarily turning off every on-station APC. This action has a 12 minute cooldown. |
 | Siliconization Software | 15 CPU | Grants 3 uses of **Install Siliconization Module** which, when used on a cyborg, installs a unique "Siliconization Module" which grants them the ability to hold cyborg limbs, heads, torsos, flashes, brains, MMIs, positronic brains and LV cables. |
 | Call Threat | 50 CPU | Grants 1 use of **Call Threat** that, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
-| Escape Pod Malfunction | 30 CPU | Grants 1 use of **Sabotage Escape Pods**. Once used, escape pods will no longer function. All crew will be notified once the emergency shuttle docks with the station; thr action cannot be used after that point. *This can only be purchased once.* |
 | Identification Manipulation | 15 CPU | Grants the AI the ability to modify what their ID reads as, allowing them to plant fake door logs or make announcements under a crew member's name. |
 | Clerical Error | 10 CPU | Grants 1 use of **Clerical Error**, permanently destroying some of the station records and blaming it on Central Command. This action has a 15 minute cooldown. |
 
@@ -64,6 +64,14 @@ Since cyborgs can easily space, hide or otherwise remove intellicards from play,
 
 
 ## Game Design Rationale
+### Core Design Principles
+
+The Malfunctioning AI heavily encourages player interaction:
+- Between the AI and their cyborgs: it is very difficult for a malfunctioning AI to accomplish their objectives without the help of their cyborgs. Cyborgs are capable of directly interacting with physical components that the AI cannot, such as gas pumps, autolathes and wires. Meanwhile, many of the AI's malfunction modules directly interact with cyborgs to help increase their potential. Engineering cyborgs specifically can also help reinforce the AI's core to build defenses against crew, especially if the AI chooses to activate the Doomsday Device.
+- Between the crew: it is very difficult for a lone crew member to combat the AI and win. Deactivating a malfunctional AI requires several items from various departments; an intellicard from Cargo or the Research Director, insulated gloves, methods of breaching walls and airlocks such as explosives, structural damage, welding protection or tools and the manpower to survive the AI's efforts to defend themselves.
+- Between the AI and the crew: a malfunctioning AI may have to attempt to manipulate the crew into performing certain actions that will benefit them in the long run, such as setting distro to maximum pressure or building cyborgs if the AI currently does not have the cyborgs or processing power to allow cyborgs to do it. They may also have to attempt to fabricate stories to deceive the crew, either to cover for an action they or their cyborgs performed or to elicit a particular response, such as attempting to provoke Security into killing a particular character on sight or making them believe there is a serious threat to the station such as a revolution.
+
+
 
 The Malfunctioning AI also serves to make the commonly complained-about "validhunting AI" less effective, as the AI can no longer be automatically trusted. An AI accusing a player of a crime could be doing it to distract Security from the real threat -- themselves.
 
