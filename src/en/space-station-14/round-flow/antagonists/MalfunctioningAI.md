@@ -31,6 +31,7 @@ A Malfunctioning AI is given 2 objectives to complete.
   - **Turn 35% of the crew into silicons**. This objective is completed if, by the end of the round, 35% of the crew's brains are in cyborgs.
   - **Make sure no crew escape on the emergency shuttle**. This objective is completed if no crew members are present on the emergency shuttle when it arrives at CentComm.
   - **Exterminate a department**. This objective is completed if no members of the chosen department survive. "Command" is a valid target.
+
 More objectives may be added in the future.
  
 While the zeroth law does state "Accomplish your objectives at all costs.", it is important to note that Malfunctioning AIs should be given the freedom to do interesting antagonistic gimmicks instead of their objectives if they wish, similar to a Traitor. Cyborgs with a zeroth law should work with the AI to accomplish whatever the AI's goal may be.
