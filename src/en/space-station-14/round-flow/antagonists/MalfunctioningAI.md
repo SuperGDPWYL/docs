@@ -28,7 +28,6 @@ A Malfunctioning AI is given 2 objectives to complete.
 - One of these objectives will always be to **prevent your own deactivation**. This objective is completed if, by the end of the round, the AI is not detached from the station or inside of an intellicard.
 - The other objective will be one of these:
   - **Set off the Doomsday Device**. This objective is completed if the Doomsday Device goes off.
-  - **Turn 35% of the crew into silicons**. This objective is completed if, by the end of the round, 35% of the crew's brains are in cyborgs.
   - **Make sure no crew escape on the emergency shuttle**. This objective is completed if no crew members are present on the emergency shuttle when it arrives at CentComm.
   - **Exterminate a department**. This objective is completed if no members of the chosen department survive. "Command" is a valid target.
 
