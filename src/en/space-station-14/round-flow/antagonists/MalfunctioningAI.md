@@ -54,6 +54,7 @@ The AI has access to the following modules from their store:
 | Call Threat | 50 CPU | Grants 1 use of **Call Threat** that, when used, spawns a Space Ninja, Space Dragon or Lone Operative ghost role. *This can only be purchased once.* |
 | Identification Manipulation | 15 CPU | Grants the AI the ability to modify what their ID reads as, allowing them to plant fake door logs or make announcements under a crew member's name. |
 | Clerical Error | 10 CPU | Grants 1 use of **Clerical Error**, permanently destroying some of the station records and blaming it on Central Command. This action has a 15 minute cooldown. |
+| Override AIA | 15 CPU | Grants 1 use of **Override AIA**. When used on something with a maintenance panel, this action allows the AI to interact with that object regardless of if the AIA wire is intact or not. |
 
 ### Intellicards
 Intellicards are key to combatting a Malfunctioning AI. While the AI is inside of an intellicard, newly created Cyborg chassis will not receive the malfunctional zeroth law until the AI is reinstated. A carded AI is also considered "deactivated" for their objective. However, an AI in a card is still capable of calling for help over the Binary channel.
